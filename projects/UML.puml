@@ -1,0 +1,39 @@
+## uml: sequence diagram
+
+@startuml decentramon_put_GUN
+
+struct User { 
+    + username: String
+    + level: Number
+    - deck: Array<Pokemon>
+    - matches: Array<Matches>
+}
+
+struct Pokemon {
+    - name: String
+    - level: Number
+    - attacks: Array<Attacks>
+    - defence: Number
+    - hp: Number
+
+    - SetAttributes(): Promise
+    + get(what: String): String
+}
+
+struct Matches {
+    - id: Number
+    - enemyUsername: String
+    - winner: Bool
+}
+
+struct Attacks {
+    - name: String
+    - element: String
+    - damage: Number
+}
+
+User "1" *-- "*" Pokemon: has >
+User "1" *-- "*" Matches: has >
+Pokemon "1" *-- "*" Attacks: has >
+
+@enduml
