@@ -7,7 +7,7 @@
 
 
 ## TODO:
-- [ ] Write the Class/Obj (70%)
+- [ ] Write the Class/Obj ![](https://geps.dev/progress/70)
 - [ ] Debug 
 - [ ] Write gun logic and querying
 - [ ] Debug
