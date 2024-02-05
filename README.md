@@ -7,10 +7,16 @@
 
 
 ## TODO:
-- [ ] Write the Class/Obj ![](https://geps.dev/progress/70)
-- [ ] Debug 
-- [ ] Write gun logic and querying
-- [ ] Debug
-- [ ] Write Battle logic
-- [ ] Debug
-- [ ] Release
+- [X] Write the pokemon Obj (done in testing/class pokemon.js) ![](https://geps.dev/progress/100)
+- [X] Debug ![](https://geps.dev/progress/100)
+- [ ] Write the attacks array? (optional)
+- [ ] Write the user logic and auth ![](https://geps.dev/progress/0)
+- [ ] Debug ![](https://geps.dev/progress/0)
+- [ ] Merge User and pokemon ![](https://geps.dev/progress/0)
+- [ ] Debug ![](https://geps.dev/progress/0)
+- [ ] Write gun logic and querying ![](https://geps.dev/progress/0)
+- [ ] Debug ![](https://geps.dev/progress/0)
+- [ ] Write Battle logic ![](https://geps.dev/progress/0)
+- [ ] Debug ![](https://geps.dev/progress/0)
+- [ ] Release ![](https://geps.dev/progress/0)
+ 

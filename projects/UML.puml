@@ -11,7 +11,7 @@ struct User {
 
 struct Pokemon {
     - name: String
-    - level: Number
+    - image: String
     - attacks: Array<Attacks>
     - defence: Number
     - hp: Number
